@@ -14,7 +14,7 @@ public class itemStoneChips extends Item {
 	}
 	public void registerIcons(IconRegister iconRegister)
 	{
-	         itemIcon = iconRegister.registerIcon("rpmod:itemStoneChips");
+	         itemIcon = iconRegister.registerIcon("RPAddon:itemStoneChips");
 	}
 
 }

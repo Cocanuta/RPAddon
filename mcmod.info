@@ -1,0 +1,17 @@
+[
+{
+  "modid": "RPAddon",
+  "name": "RP Addon",
+  "description": "A private mod designed for the HAC RolePlay Server.",
+  "version": "0.01",
+  "mcversion": "1.5.2",
+  "logoFile": "/mods/RPAddon/rpaddon.png",
+  "url": "http://www.have-a-cookie.com/",
+  "updateUrl": "",
+  "authors": ["Cocanuta", "EarlofSandwich"],
+  "credits": "Made by Cocanuta with help from EarlofSandwich.",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -15,7 +15,7 @@ public class itemAxeBasic extends ItemAxe {
 	}
 	public void registerIcons(IconRegister iconRegister)
 	{
-	         itemIcon = iconRegister.registerIcon("rpmod:itemAxeBasic");
+	         itemIcon = iconRegister.registerIcon("RPAddon:itemAxeBasic");
 	}
 
 }

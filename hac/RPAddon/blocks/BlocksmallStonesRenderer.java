@@ -20,7 +20,7 @@ if(tile.worldObj != null)
 {
 rotation = tile.getBlockMetadata();
 }
-bindTextureByName("/mods/rpmod/textures/blocks/blocksmallStones.png"); //texture
+bindTextureByName("/mods/RPAddon/textures/blocks/blocksmallStones.png"); //texture
 GL11.glPushMatrix();
 GL11.glTranslatef((float)d + 0.5F, (float)d1 + 1.5F, (float)d2 + 0.5F);
 GL11.glScalef(1.0F, -1F, -1F);

@@ -9,7 +9,7 @@ public class ItemBranch extends Item {
 	public ItemBranch(int id) {
 		super(id);
 		setMaxStackSize(64);
-		setCreativeTab(CreativeTabs.tabMisc);
+		setCreativeTab(CreativeTabs.tabMaterials);
 		setUnlocalizedName("itemBranch");
 	}
 
@@ -17,6 +17,6 @@ public class ItemBranch extends Item {
 
 	public void registerIcons(IconRegister iconRegister)
 	{
-	         itemIcon = iconRegister.registerIcon("rpmod:itemBranch");
+	         itemIcon = iconRegister.registerIcon("RPAddon:itemBranch");
 	}
 }

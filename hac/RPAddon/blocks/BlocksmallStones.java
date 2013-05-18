@@ -24,6 +24,8 @@ public class BlocksmallStones extends BlockContainer {
 public BlocksmallStones(int id, Material material) {
 super(id, material);
 setCreativeTab(CreativeTabs.tabBlock);
+setHardness(1.0F);
+setUnlocalizedName("blockSmallStones");
 float f = 0.3F;
 this.setBlockBounds(0.5F - f, 0.0F, 0.5F - f, 0.5F + f, f * 0.7F, 0.5F + f);
 }
@@ -85,7 +87,7 @@ public boolean canBlockStay(World par1World, int par2, int par3, int par4)
 }
 public void registerIcons(IconRegister iconRegister)
 {
-         blockIcon = iconRegister.registerIcon("rpmod:blocksmallStones");
+         blockIcon = iconRegister.registerIcon("RPAddon:blocksmallStones");
 }
 
 }
